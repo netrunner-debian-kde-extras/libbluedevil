@@ -1,0 +1,23 @@
+Source: libbluedevil
+Priority: extra
+Maintainer: Florian Reinhard <florian.reinhard@googlemail.com>
+Build-Depends: debhelper (>= 7.3.16), cmake, libbluetooth-dev (>= 4.60), libqt4-dev (>= 4:4.6.2)
+Standards-Version: 3.8.4
+Section: libs
+Homepage: http://gitorious.org/libbluedevil
+
+Package: libbluedevil-dev
+Section: libdevel
+Architecture: any
+Depends: libbluedevil1 (= ${binary:Version}), ${misc:Depends}
+Description: Development files for libbluedevil.
+ This package provides all the necessary development headers for building
+ software that uses the libbluedevil library.
+
+Package: libbluedevil1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A Qt wrapper for bluez.
+ libbluedevil is a Qt-style library for accessing the bluez bluetooth stack.
+ It is used by the KDE bluetooth stack, BlueDevil.

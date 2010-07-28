@@ -1,0 +1,40 @@
+This work was packaged for Debian by:
+
+    Florian Reinhard <florian.reinhard@googlemail.com> on Wed, 28 Jul 2010 12:35:00 +0200
+
+It was downloaded from http://git.ereslibre.es/libbluedevil/
+
+Upstream Authors:
+
+    Aleix Pol
+    Alex Fiestas
+    Rafael Fernández López
+
+Copyright:
+
+    Copyright (C) 2010 Rafael Fernández López <ereslibre@kde.org>
+    Copyright (C) 2010 UFO Coders <info@ufocoders.com>
+    Copyright (C) 2005-2009 Kitware Inc.
+    Copyright (C) 2006 Alexander Neundorf <neundorf@kde.org>
+    Copyright (C) 2002 Insight Consortium. All Rights Reserved.
+
+License:
+
+    Files under the BSD license:
+
+	cmake/*
+
+    On Debian systems, the complete text of the BSD license
+    can be found in /usr/share/common-licenses/BSD
+
+    All other files are licenced under the GNU Library General Public
+    License version 2 or later (LGPL-2+).On Debian systems, the
+    complete text of the GNU Library General Public License version 2
+    can be found in /usr/share/common-licenses/LGPL-2
+
+The Debian packaging is:
+
+    Copyright (C) 2010 Florian Reinhard <florian.reinhard@googlemail.com>
+
+and is licensed under the LGPL version 2,
+see `/usr/share/common-licenses/LGPL-2'.
