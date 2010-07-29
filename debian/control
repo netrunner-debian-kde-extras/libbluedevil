@@ -11,13 +11,13 @@ Package: libbluedevil-dev
 Section: libdevel
 Architecture: any
 Depends: libbluedevil1 (= ${binary:Version}), ${misc:Depends}
-Description: Development files for libbluedevil.
+Description: Development files for libbluedevil
  This package provides all the necessary development headers for building
  software that uses the libbluedevil library.
 
 Package: libbluedevil1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: A Qt wrapper for bluez.
+Description: A Qt wrapper for bluez
  libbluedevil is a Qt-style library for accessing the bluez bluetooth stack.
  It is used by the KDE bluetooth stack, BlueDevil.
