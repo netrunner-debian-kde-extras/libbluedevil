@@ -1,0 +1,12 @@
+Author: George Kiagiadakis <kiagiadakis.george@gmail.com>
+Description: Sets compiler flags to hide non-exported symbols from the ABI.
+
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -9,4 +9,6 @@
+ set(GENERIC_LIB_SOVERSION "1")
+ set(VERSION ${GENERIC_LIB_VERSION})
+ 
++set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fvisibility=hidden -fvisibility-inlines-hidden")
++
+ add_subdirectory(bluedevil)
