@@ -1,7 +1,8 @@
 Source: libbluedevil
-Priority: extra
-Maintainer: Florian Reinhard <florian.reinhard@googlemail.com>
-Build-Depends: debhelper (>= 7.3.16), cmake, libbluetooth-dev (>= 4.60), libqt4-dev (>= 4:4.6.2)
+Priority: optional
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadakis <kiagiadakis.george@gmail.com>
+Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), libqt4-dev (>= 4:4.6.2)
 Standards-Version: 3.8.4
 Section: libs
 Homepage: http://gitorious.org/libbluedevil
@@ -15,7 +16,6 @@ Description: Development files for libbluedevil.
  software that uses the libbluedevil library.
 
 Package: libbluedevil1
-Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A Qt wrapper for bluez.

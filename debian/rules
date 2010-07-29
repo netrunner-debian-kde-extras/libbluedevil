@@ -1,5 +1,5 @@
 #!/usr/bin/make -f
 # -*- makefile -*-
-%:
-	dh $@ --parallel --with kde
 
+%:
+	dh --parallel --buildsystem=cmake $@
