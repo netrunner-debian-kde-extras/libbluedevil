@@ -15,3 +15,5 @@ Qt doesn't expose the X11 headers to the world, so no need to make it required.
    FIND_PACKAGE(Threads)
 -  SET(QT_QTCORE_LIBRARY ${QT_QTCORE_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})
  ENDIF(UNIX)
+ 
+ 
