@@ -11,14 +11,14 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/libbluedevil.git;a=summ
 
 Package: libbluedevil-dev
 Section: libdevel
-Architecture: any
+Architecture: linux-any
 Depends: libbluedevil1 (= ${binary:Version}), ${misc:Depends}
 Description: Development files for libbluedevil
  This package provides all the necessary development headers for building
  software that uses the libbluedevil library.
 
 Package: libbluedevil1
-Architecture: any
+Architecture: linux-any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A Qt wrapper for bluez
  libbluedevil is a Qt-style library for accessing the bluez bluetooth stack.
