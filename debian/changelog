@@ -2,6 +2,7 @@ libbluedevil (1.7+dfsg-1) UNRELEASED; urgency=low
 
   * Initial DFSG release 
     - Remove bluez non-free documentation
+  * Architecture: linux-any
 
  -- Mark Purcell <msp@debian.org>  Fri, 06 Aug 2010 21:52:12 +1000
 
