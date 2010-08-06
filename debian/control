@@ -1,7 +1,7 @@
 Source: libbluedevil
 Priority: optional
 Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
-Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadakis <kiagiadakis.george@gmail.com>
+Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadakis <kiagiadakis.george@gmail.com>, Mark Purcell <msp@debian.org>
 Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), libqt4-dev (>= 4:4.6.2)
 Standards-Version: 3.9.1
 Section: libs
