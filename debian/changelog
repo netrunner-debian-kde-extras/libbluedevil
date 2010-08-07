@@ -1,10 +1,13 @@
-libbluedevil (1.7+dfsg-1) UNRELEASED; urgency=low
+libbluedevil (1.7+dfsg-1) unstable; urgency=low
 
   * Initial DFSG release 
     - Remove bluez non-free documentation
   * Architecture: linux-any
+  * Initial DFSG release
+  * Add dversionmangle to debian/watch
+  * Architecture: linux-any
 
- -- Mark Purcell <msp@debian.org>  Fri, 06 Aug 2010 21:52:12 +1000
+ -- Mark Purcell <msp@debian.org>  Sat, 07 Aug 2010 15:04:27 +1000
 
 libbluedevil (1.7-1) unstable; urgency=low
 
