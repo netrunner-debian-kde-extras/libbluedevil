@@ -3,6 +3,7 @@ libbluedevil (1.8-0r1) UNRELEASED; urgency=low
   * New upstream release.
   * Refresh patches.
   * Update homepage.
+  * Add Build-Depends-Package header in the symbols file.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 14 Feb 2011 21:44:39 +0200
 

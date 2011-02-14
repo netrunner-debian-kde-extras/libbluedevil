@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 1.7 amd64
 libbluedevil.so.1 libbluedevil1 #MINVER#
+* Build-Depends-Package: libbluedevil-dev
  _ZN9BlueDevil11classToTypeEj@Base 1.7
  _ZN9BlueDevil12stringToTypeERK7QString@Base 1.7
  _ZN9BlueDevil6Device10disconnectEv@Base 1.7
