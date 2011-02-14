@@ -3,7 +3,7 @@ Description: Sets compiler flags to hide non-exported symbols from the ABI.
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -9,4 +9,6 @@
+@@ -22,4 +22,6 @@
  set(GENERIC_LIB_SOVERSION "1")
  set(VERSION ${GENERIC_LIB_VERSION})
  
