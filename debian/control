@@ -5,7 +5,7 @@ Uploaders: Florian Reinhard <florian.reinhard@googlemail.com>, George Kiagiadaki
 Build-Depends: debhelper (>= 7.3.16), cmake (>= 2.6.4), libqt4-dev (>= 4:4.6.2)
 Standards-Version: 3.9.1
 Section: libs
-Homepage: http://projects.ufocoders.com/projects/libbluedevil
+Homepage: https://projects.kde.org/projects/playground/libs/libbluedevil
 Vcs-Git: git://git.debian.org/pkg-kde/kde-extras/libbluedevil.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-extras/libbluedevil.git;a=summary
 
