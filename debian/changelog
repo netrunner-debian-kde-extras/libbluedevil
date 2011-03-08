@@ -1,11 +1,11 @@
-libbluedevil (1.8-0r1) UNRELEASED; urgency=low
+libbluedevil (1.8-1) unstable; urgency=low
 
   * New upstream release.
   * Refresh patches.
   * Update homepage.
   * Add Build-Depends-Package header in the symbols file.
 
- -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Mon, 14 Feb 2011 21:44:39 +0200
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Fri, 04 Mar 2011 16:47:34 +0200
 
 libbluedevil (1.7+dfsg-1) unstable; urgency=low
 
