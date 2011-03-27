@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.7 amd64
+# SymbolsHelper-Confirmed: 1.8.1 amd64
 libbluedevil.so.1 libbluedevil1 #MINVER#
 * Build-Depends-Package: libbluedevil-dev
  _ZN9BlueDevil11classToTypeEj@Base 1.7
@@ -52,6 +52,7 @@ libbluedevil.so.1 libbluedevil1 #MINVER#
  _ZN9BlueDevil6DeviceD2Ev@Base 1.7
  _ZN9BlueDevil7Adapter10setPoweredEb@Base 1.7
  _ZN9BlueDevil7Adapter11deviceFoundEPNS_6DeviceE@Base 1.7
+ _ZN9BlueDevil7Adapter11deviceFoundERK4QMapI7QString8QVariantE@Base 1.8.1
  _ZN9BlueDevil7Adapter11nameChangedERK7QString@Base 1.7
  _ZN9BlueDevil7Adapter11qt_metacallEN11QMetaObject4CallEiPPv@Base 1.7
  _ZN9BlueDevil7Adapter11qt_metacastEPKc@Base 1.7
@@ -109,6 +110,8 @@ libbluedevil.so.1 libbluedevil1 #MINVER#
  _ZN9BlueDevil7Manager7Private17_k_adapterRemovedERK15QDBusObjectPath@Base 1.7
  _ZN9BlueDevil7Manager7Private18_k_propertyChangedERK7QStringRK12QDBusVariant@Base 1.7
  _ZN9BlueDevil7Manager7Private24_k_defaultAdapterChangedERK15QDBusObjectPath@Base 1.7
+ _ZN9BlueDevil7Manager7Private25_k_bluezServiceRegisteredEv@Base 1.8.1
+ _ZN9BlueDevil7Manager7Private27_k_bluezServiceUnregisteredEv@Base 1.8.1
  _ZN9BlueDevil7Manager7PrivateC1EPS0_@Base 1.7
  _ZN9BlueDevil7Manager7PrivateC2EPS0_@Base 1.7
  _ZN9BlueDevil7Manager7PrivateD1Ev@Base 1.7
