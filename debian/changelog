@@ -1,3 +1,9 @@
+libbluedevil (1.8.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 27 Mar 2011 15:13:29 +0300
+
 libbluedevil (1.8-1) unstable; urgency=low
 
   * New upstream release.
