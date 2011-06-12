@@ -2,6 +2,7 @@ libbluedevil (1.9-1) unstable; urgency=low
 
   * New upstream release.
   * Bump standards-version to 3.9.2; no changes required.
+  * Refresh patches.
 
  -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sun, 12 Jun 2011 18:41:27 +0300
 
