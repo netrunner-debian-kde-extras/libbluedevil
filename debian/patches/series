@@ -1,2 +1,3 @@
 01_findqt4_optional_x11_pthread.diff
 02_hidden_visibility.diff
+03_use_multiarch_lib_paths.diff

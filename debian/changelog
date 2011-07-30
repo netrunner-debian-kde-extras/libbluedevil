@@ -1,3 +1,9 @@
+libbluedevil (1.9-2) UNRELEASED; urgency=low
+
+  * Convert to multiarch; patch from Daniel Schaal (Closes: #636042)
+
+ -- George Kiagiadakis <kiagiadakis.george@gmail.com>  Sat, 30 Jul 2011 20:55:11 +0300
+
 libbluedevil (1.9-1) unstable; urgency=low
 
   * New upstream release.

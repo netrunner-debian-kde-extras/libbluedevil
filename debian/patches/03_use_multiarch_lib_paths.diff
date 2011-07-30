@@ -1,0 +1,28 @@
+Index: libbluedevil/CMakeLists.txt
+===================================================================
+--- libbluedevil.orig/CMakeLists.txt	2011-07-30 14:45:21.000000000 +0200
++++ libbluedevil/CMakeLists.txt	2011-07-30 14:45:21.000000000 +0200
+@@ -8,10 +8,10 @@
+ #
+ ### lib64/32 support kde like
+ #
+-set(LIB_SUFFIX "" CACHE STRING "Define suffix for lib directory (32/64)")
++# set(LIB_SUFFIX "" CACHE STRING "Define suffix for lib directory (32/64)")
+ 
+ set(BIN_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/bin)
+-set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib${LIB_SUFFIX})
++set(LIB_INSTALL_DIR ${CMAKE_INSTALL_PREFIX}/lib/${CMAKE_LIBRARY_ARCHITECTURE})
+ 
+ set(INSTALL_TARGETS_DEFAULT_ARGS  RUNTIME DESTINATION "${BIN_INSTALL_DIR}"
+                                   LIBRARY DESTINATION "${LIB_INSTALL_DIR}"
+Index: libbluedevil/bluedevil/bluedevil.pc.in
+===================================================================
+--- libbluedevil.orig/bluedevil/bluedevil.pc.in	2011-07-30 14:45:38.000000000 +0200
++++ libbluedevil/bluedevil/bluedevil.pc.in	2011-07-30 14:46:06.000000000 +0200
+@@ -1,5 +1,5 @@
+ prefix=@CMAKE_INSTALL_PREFIX@
+-libdir=@CMAKE_INSTALL_PREFIX@/lib
++libdir=@CMAKE_INSTALL_PREFIX@/lib/@CMAKE_LIBRARY_ARCHITECTURE@
+ includedir=@CMAKE_INSTALL_PREFIX@/include
+ 
+ Name: bluedevil

@@ -2,4 +2,4 @@
 # -*- makefile -*-
 
 %:
-	dh --parallel --buildsystem=cmake $@
+	dh $@ --parallel --buildsystem=cmake
