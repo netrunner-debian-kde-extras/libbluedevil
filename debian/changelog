@@ -15,6 +15,7 @@ libbluedevil (1.9.1-0r1) UNRELEASED; urgency=low
       properly set "libdir" in the pkg-config file
   * Bump debhelper build dependency to 9.
   * Bump Standards-Version to 3.9.3, no changes required.
+  * Slightly improve the package descriptions.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 30 Jul 2011 20:55:11 +0300
 
