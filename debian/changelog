@@ -3,6 +3,9 @@ libbluedevil (1.9-2) UNRELEASED; urgency=low
   [ George Kiagiadakis ]
   * Convert to multiarch; patch from Daniel Schaal (Closes: #636042)
 
+  [ Pino Toscano ]
+  * Fix watch file.
+
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 30 Jul 2011 20:55:11 +0300
 
 libbluedevil (1.9-1) unstable; urgency=low
