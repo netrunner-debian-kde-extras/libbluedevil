@@ -11,6 +11,8 @@ libbluedevil (1.9.1-0r1) UNRELEASED; urgency=low
     - 02_hidden_visibility.diff: drop, no more required.
     - 03_use_multiarch_lib_paths.diff: refresh, add DEP3 headers, remove part
       concerning the pkg-config file
+    - upstream_use-LIB_INSTALL_DIR.patch: backport upstream commit to
+      properly set "libdir" in the pkg-config file
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 30 Jul 2011 20:55:11 +0300
 
