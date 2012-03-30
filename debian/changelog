@@ -7,6 +7,8 @@ libbluedevil (1.9.1-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Fix watch file.
+  * Update the patches:
+    - 02_hidden_visibility.diff: drop, no more required.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Sat, 30 Jul 2011 20:55:11 +0300
 
