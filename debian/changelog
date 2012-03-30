@@ -1,4 +1,6 @@
-libbluedevil (1.9-2) UNRELEASED; urgency=low
+libbluedevil (1.9.1-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ George Kiagiadakis ]
   * Convert to multiarch; patch from Daniel Schaal (Closes: #636042)
