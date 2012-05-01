@@ -1,11 +1,11 @@
-libbluedevil (1.9.2-1) UNRELEASED; urgency=low
+libbluedevil (1.9.2-1) unstable; urgency=low
 
   * New upstream release.
   * Add myself to uploaders.
   * Drop upstream_use-LIB_INSTALL_DIR.patch, merged upstream.
   * Update symbol file.
 
- -- Modestas Vainius <modax@debian.org>  Tue, 01 May 2012 16:10:08 +0300
+ -- Modestas Vainius <modax@debian.org>  Tue, 01 May 2012 16:19:13 +0300
 
 libbluedevil (1.9.1-1) unstable; urgency=low
 
