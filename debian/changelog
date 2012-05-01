@@ -1,6 +1,7 @@
 libbluedevil (1.9.2-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Add myself to uploaders.
 
  -- Modestas Vainius <modax@debian.org>  Tue, 01 May 2012 16:10:08 +0300
 
