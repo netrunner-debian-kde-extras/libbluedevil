@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.9 amd64
+# SymbolsHelper-Confirmed: 1.9.2 amd64
 libbluedevil.so.1 libbluedevil1 #MINVER#
 * Build-Depends-Package: libbluedevil-dev
  _ZN9BlueDevil11classToTypeEj@Base 1.7
@@ -92,6 +92,7 @@ libbluedevil.so.1 libbluedevil1 #MINVER#
  _ZN9BlueDevil7Adapter7Private18_k_propertyChangedERK7QStringRK12QDBusVariant@Base 1.7
  _ZN9BlueDevil7Adapter7Private20_k_createDeviceReplyEP23QDBusPendingCallWatcher@Base 1.9
  _ZN9BlueDevil7Adapter7Private20_k_deviceDisappearedERK7QString@Base 1.7
+ _ZN9BlueDevil7Adapter7Private20setDefaultPropertiesEv@Base 1.9.2
  _ZN9BlueDevil7Adapter7Private26_k_createPairedDeviceReplyEP23QDBusPendingCallWatcher@Base 1.7
  _ZN9BlueDevil7Adapter7PrivateC1EPS0_@Base 1.7
  _ZN9BlueDevil7Adapter7PrivateC2EPS0_@Base 1.7

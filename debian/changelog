@@ -3,6 +3,7 @@ libbluedevil (1.9.2-1) UNRELEASED; urgency=low
   * New upstream release.
   * Add myself to uploaders.
   * Drop upstream_use-LIB_INSTALL_DIR.patch, merged upstream.
+  * Update symbol file.
 
  -- Modestas Vainius <modax@debian.org>  Tue, 01 May 2012 16:10:08 +0300
 
