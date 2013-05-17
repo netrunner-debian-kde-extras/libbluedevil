@@ -1,14 +1,13 @@
-libbluedevil (1.9.3-0r1) UNRELEASED; urgency=low
+libbluedevil (1.9.3-1) unstable; urgency=low
 
+  * Team upload.
   * New upstream release.
-
-  [ Pino Toscano ]
   * Fix Vcs-* headers.
   * Make libbluedevil-dev depend on libqt4-dev.
   * Update symbols file.
   * Bump Standards-Version to 3.9.4, no changes required.
 
- -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 17 May 2013 12:41:34 +0200
+ -- Pino Toscano <pino@debian.org>  Fri, 17 May 2013 12:58:52 +0200
 
 libbluedevil (1.9.2-1) unstable; urgency=low
 
