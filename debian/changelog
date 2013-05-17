@@ -6,6 +6,7 @@ libbluedevil (1.9.3-0r1) UNRELEASED; urgency=low
   * Fix Vcs-* headers.
   * Make libbluedevil-dev depend on libqt4-dev.
   * Update symbols file.
+  * Bump Standards-Version to 3.9.4, no changes required.
 
  -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 17 May 2013 12:41:34 +0200
 
