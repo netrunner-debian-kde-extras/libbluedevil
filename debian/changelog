@@ -1,3 +1,9 @@
+libbluedevil (1.9.3-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>  Fri, 17 May 2013 12:41:34 +0200
+
 libbluedevil (1.9.2-1) unstable; urgency=low
 
   * New upstream release.
