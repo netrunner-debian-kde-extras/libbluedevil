@@ -1,12 +1,12 @@
 Author: Daniel Schaal <farbing@web.de>
 Description: Set a multi-arch library directory.
-Last-Update: 2012-03-30
+Last-Update: 2014-03-31
 Forwarded: no
 Bug-Debian: http://bugs.debian.org/636042
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -20,10 +20,10 @@ endif (_HAVE_VISIBILITY AND NOT WIN32)
+@@ -22,10 +22,10 @@ endif (_HAVE_VISIBILITY AND NOT WIN32)
  #
  ### lib64/32 support kde like
  #
