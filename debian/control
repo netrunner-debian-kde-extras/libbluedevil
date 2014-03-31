@@ -12,12 +12,12 @@ Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libbluedevil
 Package: libbluedevil-dev
 Section: libdevel
 Architecture: linux-any
-Depends: libbluedevil1 (= ${binary:Version}), ${misc:Depends}, libqt4-dev
+Depends: libbluedevil2 (= ${binary:Version}), ${misc:Depends}, libqt4-dev
 Description: development files for libbluedevil
  This package provides all the necessary development headers for building
  software that uses the libbluedevil library.
 
-Package: libbluedevil1
+Package: libbluedevil2
 Architecture: linux-any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
