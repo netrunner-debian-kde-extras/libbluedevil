@@ -1,3 +1,11 @@
+libbluedevil (2.0~rc1-6-g7bb223c-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream snapshot, add two setAlias symbols
+  * Bump Standards-Version to 3.9.6 without changes needed
+
+ -- Didier Raboud <odyx@debian.org>  Thu, 23 Oct 2014 10:31:19 +0200
+
 libbluedevil (2.0~rc1-2) unstable; urgency=medium
 
   * Team upload to unstable as bluez5 landed in unstable.
