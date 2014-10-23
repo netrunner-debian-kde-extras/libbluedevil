@@ -75,6 +75,7 @@ libbluedevil.so.2 libbluedevil2 #MINVER#
  _ZN9BlueDevil7Adapter7PrivateD1Ev@Base 1.7
  _ZN9BlueDevil7Adapter7PrivateD2Ev@Base 1.7
  _ZN9BlueDevil7Adapter7devicesEv@Base 1.7
+ _ZN9BlueDevil7Adapter8setAliasERK7QString@Base 2.0~rc1-6-g7bb223c
  _ZN9BlueDevil7Adapter9addDeviceERK7QString@Base 2.0~rc1
  _ZN9BlueDevil7AdapterC1ERK7QStringP7QObject@Base 1.7
  _ZN9BlueDevil7AdapterC2ERK7QStringP7QObject@Base 1.7
@@ -122,6 +123,7 @@ libbluedevil.so.2 libbluedevil2 #MINVER#
  _ZNK9BlueDevil7Adapter19discoverableTimeoutEv@Base 1.7
  _ZNK9BlueDevil7Adapter20startStableDiscoveryEv@Base 1.9
  _ZNK9BlueDevil7Adapter4nameEv@Base 1.7
+ _ZNK9BlueDevil7Adapter5aliasEv@Base 2.0~rc1-6-g7bb223c
  _ZNK9BlueDevil7Adapter7addressEv@Base 1.7
  _ZNK9BlueDevil7Adapter9isPoweredEv@Base 1.7
  _ZNK9BlueDevil7Manager10metaObjectEv@Base 1.7
