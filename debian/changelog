@@ -1,3 +1,9 @@
+libbluedevil (2.0~rc1-6-g7bb223c-2) unstable; urgency=medium
+
+  * Team upload to unstable
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 24 Oct 2014 19:00:17 +0200
+
 libbluedevil (2.0~rc1-6-g7bb223c-1) experimental; urgency=medium
 
   * Team upload
