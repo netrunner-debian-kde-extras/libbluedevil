@@ -1,3 +1,14 @@
+libbluedevil (2.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Drop 03_use_multiarch_lib_paths.diff
+    + Upstream now uses GNUInstallDirs which handles multiarch.
+  * Add upstream_Adapter-Add-back-alias-and-setAlias-for-binary-compa.patch
+    + Restores ABI compatibility
+  * Update watch file to look for xz rather than bz2
+
+ -- Harald Sitter <sitter@kde.org>  Sat, 27 Dec 2014 12:33:17 +0100
+
 libbluedevil (2.0~rc1-6-g7bb223c-2) unstable; urgency=medium
 
   * Team upload to unstable

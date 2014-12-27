@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 1.9.3 amd64
+# SymbolsHelper-Confirmed: 2.1 amd64
 libbluedevil.so.2 libbluedevil2 #MINVER#
 * Build-Depends-Package: libbluedevil-dev
  _ZN9BlueDevil11classToTypeEj@Base 1.7
@@ -75,6 +75,7 @@ libbluedevil.so.2 libbluedevil2 #MINVER#
  _ZN9BlueDevil7Adapter7PrivateD1Ev@Base 1.7
  _ZN9BlueDevil7Adapter7PrivateD2Ev@Base 1.7
  _ZN9BlueDevil7Adapter7devicesEv@Base 1.7
+ _ZN9BlueDevil7Adapter7setNameERK7QString@Base 2.1
  _ZN9BlueDevil7Adapter8setAliasERK7QString@Base 2.0~rc1-6-g7bb223c
  _ZN9BlueDevil7Adapter9addDeviceERK7QString@Base 2.0~rc1
  _ZN9BlueDevil7AdapterC1ERK7QStringP7QObject@Base 1.7
@@ -113,6 +114,7 @@ libbluedevil.so.2 libbluedevil2 #MINVER#
  _ZNK9BlueDevil6Device8isPairedEv@Base 1.7
  _ZNK9BlueDevil7Adapter10isPairableEv@Base 1.7
  _ZNK9BlueDevil7Adapter10metaObjectEv@Base 1.7
+ _ZNK9BlueDevil7Adapter10systemNameEv@Base 2.1
  _ZNK9BlueDevil7Adapter12adapterClassEv@Base 1.7
  _ZNK9BlueDevil7Adapter13isDiscoveringEv@Base 1.7
  _ZNK9BlueDevil7Adapter13stopDiscoveryEv@Base 1.7
